@@ -13,7 +13,7 @@ module YAML
   # YAML document.
   #
   # ```
-  # require "yaml"
+  # require "yaml_mapping"
   #
   # class Employee
   #   YAML.mapping(

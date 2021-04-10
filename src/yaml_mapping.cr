@@ -2,7 +2,7 @@ require "yaml"
 
 module YAML
   module Mapping
-    VERSION = "0.1.0"
+    VERSION = "0.1.1"
   end
 
   # The `YAML.mapping` macro defines how an object is mapped to YAML.

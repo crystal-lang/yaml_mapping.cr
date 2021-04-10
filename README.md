@@ -2,6 +2,10 @@
 
 Provides the legacy `YAML.mapping` macro method.
 
+This shard is provided as-is and considered deprecated. It won't receive feature enhancements.
+
+Please consider using [`YAML::Serializable`](https://crystal-lang.org/api/latest/YAML/Serializable.html) instead, the successor included in Crystal's standard library.
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
@@ -36,7 +40,7 @@ employee.name # => "Jenny"
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/yaml_mapping.cr/fork>)
+1. Fork it (<https://github.com/crystal-lang/yaml_mapping.cr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

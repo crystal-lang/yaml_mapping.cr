@@ -1,3 +1,15 @@
+> [!IMPORTANT]
+> This library is no longer supported or updated by the Crystal Team,
+> therefore we have archived the repository.
+> 
+> The contents are still available readonly and continue to work as a
+> [shards](https://github.com/crystal-lang/shards/) dependency.
+>
+> If you wish to continue development yourself, we recommend you fork it.
+> We can also arrange to transfer ownership.
+>
+> If you have further question, please ask on https://forum.crystal-lang.org
+
 # yaml_mapping
 
 Provides the legacy `YAML.mapping` macro method.
@@ -37,11 +49,3 @@ employee.name  # => "John"
 employee.name = "Jenny"
 employee.name # => "Jenny"
 ```
-
-## Contributing
-
-1. Fork it (<https://github.com/crystal-lang/yaml_mapping.cr/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
